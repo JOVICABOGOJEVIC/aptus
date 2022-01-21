@@ -11121,9 +11121,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 }
 
 /* Slider With Overlay */
-.rev_slider li.slide-overlay {
-	/* Slider With Overlay Opacity Level */
-}
+
 
 .rev_slider li.slide-overlay .slotholder:after {
 	width: 100%;
