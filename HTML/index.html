@@ -44,8 +44,9 @@
 		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
 		
 		<!-- Demo CSS -->
-
-
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/skin-corporate-7.css"> 
 
@@ -54,20 +55,28 @@
 
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
-
+<style>
+	.blue_back{
+		background-color: #0d6efd;
+	}
+.max{
+		font-size: 2em;
+		color:yellow;
+	}
+</style>
 	</head>
 	<body style="font-family: 'Titillium Web', sans-serif;"	class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
-		<div class="loading-overlay">
+		<!--div class="loading-overlay">
 			<div class="bounce-loader">
 				<div class="bounce1"></div>
 				<div class="bounce2"></div>
 				<div class="bounce3"></div>
 			</div>
-		</div>
+		</div-->
 
 		<div class="body">
-			<header id="header" class="header-transparent header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-				<div class="header-body border-top-0 bg-dark box-shadow-none">
+			<header id="header"  class="blue_back header-transparent header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0  box-shadow-none">
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
@@ -127,24 +136,7 @@
 											<i class="fas fa-bars"></i>
 										</button>
 									</div>
-									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
-										<div class="header-nav-feature header-nav-features-search d-inline-flex">
-											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"></a>
-											<div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed" id="headerTopSearchDropdown">
-												<form role="search" action="page-search-results.html" method="get">
-													<div class="simple-search input-group">
-														<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
-														<span class="input-group-append">
-															<button class="btn" type="submit">
-																<i class="fa fa-search header-nav-top-icon"></i>
-															</button>
-														</span>
-													</div>
-												</form>
-											</div>
-										</div>
 									
-									</div>
 								</div>
 							</div>
 						</div>
@@ -154,9 +146,9 @@
 
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 100vh;">
-					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }}">
+					<div id="revolutionSlider" style="background-color: #fff;" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }}">
 						<ul>
-							<li class="slide-overlay" data-transition="fade">
+							<li class=" slide-overlay" data-transition="fade">
 								<img src="img/slides/slide-corporate-7-1.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -169,7 +161,8 @@
 									data-y="center" data-voffset="['-110','-110','-110','-135']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:1;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;">
+									<img src="img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -199,9 +192,9 @@
 									data-y="center" data-voffset="['-10','-10','-10','-25']"
 									data-fontsize="['18','18','18','50']"
 									data-lineheight="['29','29','29','40']"
-									style="color: #b5b5b5;">Mi znamo način za poboljšanje kvaliteta života pacijenata.</div>
+									style="color: white;">Mi znamo način za poboljšanje kvaliteta života pacijenata.</div>
 
-								<a class="tp-caption btn btn-light font-weight-bold text-color-primary"
+								<a class="tp-caption btn  font-weight-bold "
 									href="demo-real-estate-agents.html"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['-120','-120','-120','-195']"
@@ -211,9 +204,12 @@
 									data-paddingleft="['33','33','33','50']"
 									data-paddingright="['33','33','33','50']"
 									data-fontsize="['13','13','13','25']"
-									data-lineheight="['20','20','20','25']">SAZNAJTE VIŠE</a>
+									data-lineheight="['20','20','20','25']" 
+									style="background-color:white; border:1px solid white; color:#0d6efd;
+									 text-decoration: none;">
+									SAZNAJTE VIŠE</a>
 
-								<a class="tp-caption btn btn-primary font-weight-bold"
+								<a class="tp-caption btn  font-weight-bold"
 									href="mailto:office@aptus.rs" target="blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['90','90','90','165']"
@@ -223,7 +219,9 @@
 									data-paddingleft="['33','33','33','50']"
 									data-paddingright="['33','33','33','50']"
 									data-fontsize="['13','13','13','25']"
-									data-lineheight="['20','20','20','25']">POŠALJITE MAIL <i class="fas fa-arrow-right ml-1"></i></a>
+									data-lineheight="['20','20','20','25']"
+									style="background-color:none; border:1px solid white; color:white;">
+									POŠALJITE MAIL <i class="fas fa-arrow-right ml-1"></i></a>
 								
 							</li>
 							<li class="slide-overlay" data-transition="fade">
@@ -269,9 +267,9 @@
 									data-y="center" data-voffset="['-10','-10','-10','-25']"
 									data-fontsize="['18','18','18','50']"
 									data-lineheight="['29','29','29','40']"
-									style="color: #b5b5b5;">Kompanija koja brine o preko <strong>7 MILIONA</strong> potencijalnih korisnika</div>
+									style="color:white;">Kompanija koja brine o preko <strong>7 MILIONA</strong> potencijalnih korisnika</div>
 
-								<a class="tp-caption btn btn-primary font-weight-bold"
+								<a class="tp-caption btn font-weight-bold"
 									href="about-us-advanced.html"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
@@ -281,7 +279,9 @@
 									data-paddingleft="['33','33','33','50']"
 									data-paddingright="['33','33','33','50']"
 									data-fontsize="['13','13','13','25']"
-									data-lineheight="['20','20','20','25']">UPOZNAJTE NAS <i class="fas fa-arrow-right ml-1"></i></a>
+									data-lineheight="['20','20','20','25']"
+									style="background-color:none; border:1px solid white; color:white;"
+									>UPOZNAJTE NAS <i class="fas fa-arrow-right ml-1"></i></a>
 								
 							</li>
 						</ul>

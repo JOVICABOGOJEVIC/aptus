@@ -48,13 +48,21 @@
 
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
-
+		<script>
+			    function mouseover() {
+                document.getElementsById("gfg").style.color = "red";
+            }
+		</script>
+<style>
+a:hover {
+  color: #FF00FF;
+}</style>
 	</head>
 	<body>
 
 		<div class="body">
 			<header id="header" class="header-transparent header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-				<div class="header-body border-top-0 bg-dark box-shadow-none">
+				<div class="header-body border-top-0 bg-primary box-shadow-none">
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
@@ -68,12 +76,12 @@
 							</div>
 							<div class="header-column justify-content-end">
 								<div class="header-row">
-									<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
-										<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+									<div class="header-nav header-nav-links header-nav-dropdowns-primary header-nav-light-text order-2 order-lg-1">
+										<div class="header-nav-main header-nav-main-mobile-primary header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="index.html">
+														<a class="" href="index.html">
 															NASLOVNA
 														</a>													
 													</li>
@@ -114,23 +122,6 @@
 											<i class="fas fa-bars"></i>
 										</button>
 									</div>
-									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
-										<div class="header-nav-feature header-nav-features-search d-inline-flex">
-											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"></a>
-											<div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed" id="headerTopSearchDropdown">
-												<form role="search" action="page-search-results.html" method="get">
-													<div class="simple-search input-group">
-														<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
-														<span class="input-group-append">
-															<button class="btn" type="submit">
-																<i class="fa fa-search header-nav-top-icon"></i>
-															</button>
-														</span>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -138,9 +129,9 @@
 				</div>
 			</header>
 			<div role="main" class="main">
-				<section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7" style="background-image: url(img/medicinska_oprema.jpg);">
-					<div class="container">
-						<div class="row" style="">
+				<section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-primary overlay-show overlay-op-7" style="background-image: url(img/medicinska_oprema.jpg);">
+					<div class="container" style="margin-top:-40%;">
+						<div class="row" >
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
 								<h1 class="text-9 font-weight-bold">APTUS</h1>
 								<span class="sub-title">Najbolji izbor za Vaše poslovanje</span>

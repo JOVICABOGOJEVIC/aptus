@@ -1515,6 +1515,10 @@ html body.body .btn:active {
 }
 
 /* Colors */
+/*my_btn*/
+
+
+/*BTN-PRIMARY*/
 .btn-primary {
 	background-color: #CCC;
 	border-color: #CCC #CCC #b3b3b3;
@@ -11129,8 +11133,8 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 	left: 0;
 	top: 0;
 	pointer-events: none;
-	opacity: 0.9;
-	background: #212529;
+	opacity: 0.8;
+	background: #0d6efd;
 	z-index: 2;
 }
 
