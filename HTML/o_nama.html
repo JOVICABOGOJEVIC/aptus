@@ -21,7 +21,9 @@
 
 		<!-- Web Fonts  -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400" rel="stylesheet" type="text/css">
-
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
@@ -54,86 +56,101 @@
             }
 		</script>
 <style>
-a:hover {
-  color: #FF00FF;
-}</style>
+	.overlay{
+background-color: #0B74E7 !important;
+	}
+</style>
 	</head>
-	<body>
+	<body style="font-family: 'Sunflower', sans-serif;" >
 
 		<div class="body">
-			<header id="header" class="header-transparent header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-				<div class="header-body border-top-0 bg-primary box-shadow-none">
-					<div class="header-container container">
-						<div class="header-row">
-							<div class="header-column">
-								<div class="header-row">
-									<div class="header-logo">
-										<a href="index.html">
-											<img alt="aptus" width="150" height="50" src="img/myLog.png">
-										</a>
-									</div>
+			<header id="header"
+			class=" header-transparent header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink"
+			data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+			<div class="header-body border-top-0  box-shadow-none" style="background-color: #0088CC;" >
+				<div class="header-container container " >
+					<div class="header-row ">
+						<div class="header-column">
+							<div class="header-row">
+								<div class="header-logo">
+									<p>
+										<!--img alt="aptus" width="150" height="50" src="img/myLog.png"-->
+									<h1 style="text-decoration: none; font-weight: bold; color:white;">APTUS</h1>
+									</p>
 								</div>
 							</div>
-							<div class="header-column justify-content-end">
-								<div class="header-row">
-									<div class="header-nav header-nav-links header-nav-dropdowns-primary header-nav-light-text order-2 order-lg-1">
-										<div class="header-nav-main header-nav-main-mobile-primary header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
-											<nav class="collapse">
-												<ul class="nav nav-pills" id="mainNav">
-													<li class="dropdown">
-														<a class="" href="index.html">
-															NASLOVNA
-														</a>													
-													</li>
-													<li class="dropdown dropdown-mega">
-														<a class="dropdown-item dropdown-toggle active" href="about-us-advanced.html">
-															O NAMA
-														</a>														
-													</li>
-													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="page-team-advanced.html">
-															PARTNERI
-														</a>
-													</li>
-													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="elements-lightboxes.html">
-															PROIZVODI
-														</a>
-													</li>
-													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="demo-real-estate-agents.html">
-															UPUTSTVA
-														</a>
-													</li>
-													<li class="dropdown">
+						</div>
+						<div class="">
+							<div class="">
+								<div
+									class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
+									<div
+										class="header-nav-main  header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+										<nav class="collapse">
+											<ul class="nav nav-pills" id="mainNav">
+												<li class="dropdown">
+													<a style="font-size: 14px;color:rgb(3, 3, 78);"
+														class="dropdown-item dropdown-toggle active" href="index.html">
+														NASLOVNA
+													</a>
+												</li>
+												<li class="dropdown dropdown-mega">
+													<a style="font-size: 14px;" class="dropdown-item dropdown-toggle"
+														href="o_nama.html">
+														O NAMA
+													</a>
+												</li>
+												<li class="dropdown">
+													<a style="font-size: 14px;" class="dropdown-item dropdown-toggle"
+														href="partneri.html">
+														PARTNERI
+													</a>
+												</li>
+												<li class="dropdown">
+													<a style="font-size: 14px;" class="dropdown-item dropdown-toggle"
+														href="proizvodi.html">
+														PROIZVODI
+													</a>
+												</li>
+												<li class="dropdown">
+													<a style="font-size: 14px;" class="dropdown-item dropdown-toggle"
+														href="uputstva.html">
+														UPUTSTVA
+													</a>
+												</li>
+												<!--li class="dropdown">
 														<a class="dropdown-item dropdown-toggle" href="#">
 														SERTIFIKAT
 														</a>
-													</li>
-													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="contact-us.html">
-															KONTAKT
-														</a>
-													</li>
-												</ul>
-											</nav>
-										</div>
-										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
-											<i class="fas fa-bars"></i>
-										</button>
+													</li-->
+												<li class="dropdown">
+													<a style="font-size: 14px;" class="dropdown-item dropdown-toggle"
+														href="contact-us.html">
+														KONTAKT
+													</a>
+												</li>
+											</ul>
+										</nav>
 									</div>
+									<button class="btn header-btn-collapse-nav" data-toggle="collapse"
+										data-target=".header-nav-main nav">
+										<i class="fas fa-bars"></i>
+									</button>
 								</div>
+
 							</div>
 						</div>
 					</div>
 				</div>
-			</header>
+			</div>
+		</header>
 			<div role="main" class="main">
-				<section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-primary overlay-show overlay-op-7" style="background-image: url(img/medicinska_oprema.jpg);">
-					<div class="container" style="margin-top:-40%;">
+				
+				<section class="page-header page-header-modern page-header-background page-header-background-md overlay-color-primary overlay overlay-show overlay-op-9" style="background-image: url(../bolnicka_sala.jpg);">
+					<div class="container">
 						<div class="row" >
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="text-9 font-weight-bold">APTUS</h1>
+								<h1 class="text-9 font-weight-bold" style="margin-top: 10%;">APTUS</h1>
 								<span class="sub-title">Najbolji izbor za Vaše poslovanje</span>
 							</div>
 						</div>
