@@ -3541,7 +3541,7 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav.header-nav-links nav > ul li:hover > a {
-		color: #0088CC;
+		color: tomato;
 	}
 
 	#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
