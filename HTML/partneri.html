@@ -56,7 +56,13 @@
 
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
-
+<style>
+	#box{
+		display: none;
+		border:1px solid #0088CC;
+		padding: 3%;
+	}
+</style>
 	</head>
 	<body  style="font-family: 'Sunflower', sans-serif;">
 
@@ -109,8 +115,8 @@
 													</a>
 												</li>
 												<li class="dropdown">
-													<a style="font-size: 14px;" class="dropdown-item dropdown-toggle"
-														href="uputstva.html">
+													<a href="C:/Users/jovica.bogojevic/Documents/aptus/HTML/partneri.html/#tag" style="font-size: 14px;" class="dropdown-item dropdown-toggle"
+														>
 														UPUTSTVA
 													</a>
 												</li>
@@ -142,7 +148,6 @@
 		</header>
 
 			<div role="main" class="main">
-
 				<section class="page-header page-header-modern page-header-background page-header-background-sm overlay overlay-color-primary overlay-show overlay-op-8 mb-5" style="background-image: url(img/proizvodi.jpg);">
 					<div class="container">
 						<div class="row">
@@ -156,11 +161,27 @@
 				</section>
 
 				<div class="container py-2">	
+					
+				<div  id="box" class="p-2">
+				<h3 class="text-center color-text-dark font-weight-bold p-3">	LISTA NAŠIH DOBAVLJAČA</h3>
+					<ul ><li class="text-color-primary">MERIT MEDICAL</li>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum fugiat, 
+						perspiciatis explicabo nisi quis dolores officia, 
+						corporis nesciunt sed eaque optio nihil illum in cumque facilis eveniet id sequi?
+					<a href="merit.com" class="float-right">Poseti sajt >></a></p>
+					
+						<hr>
+						<li></li> <hr>
+						<li></li> <hr>
+						<li></li> <hr>
+						<li></li> <hr>
+						<li></li>
+					</ul>
+				</div>
 					<div class="row mb-5 pb-3">
 						
 						<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-							<h4 class="mb-4">Flip Card 3D</h4>
-
+							<h4 class="mb-4"></h4>
 							<div class="card flip-card flip-card-3d text-center rounded-0">
 								<div class="flip-front p-5">
 									<div class="flip-content my-4">
@@ -173,13 +194,13 @@
 									<div class="flip-content my-4">
 										<h4 class="font-weight-bold text-color-light">FIRST MEETING</h4>
 										<p class="font-weight-light text-color-light opacity-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-										<a href="#" class="btn btn-light btn-modern text-color-dark font-weight-bold">LEARN MORE</a>
+										<a href="#" class="btn btn-light btn-modern text-color-dark font-weight-bold"  onClick="showBox()">LEARN MORE</a>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-							<h4 class="mb-4">Flip Card 3D</h4>
+							<h4 class="mb-4"></h4>
 
 							<div class="card flip-card flip-card-3d text-center rounded-0">
 								<div class="flip-front p-5">
@@ -195,14 +216,14 @@
 										<p class="font-weight-light text-color-danger opacity-8"
 										style="margin-top: -60px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
 										<a href="#" style="margin-top: 60px;"
-										class="btn btn-danger btn-modern text-color-light font-weight-bold">POSETI SAJT</a>
+										class="btn btn-danger btn-modern text-color-light font-weight-bold"  onClick="showBox()">POSETI SAJT</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					
 						<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-							<h4 class="mb-4">Flip Card 3D</h4>
+							<h4 class="mb-4"></h4>
 
 							<div class="card flip-card flip-card-3d text-center rounded-0">
 								<div class="flip-front p-5">
@@ -229,7 +250,7 @@
 					<div class="row mb-5 pb-3">
 						
 						<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-							<h4 class="mb-4">Flip Card 3D</h4>
+							<h4 class="mb-4"></h4>
 
 							<div class="card flip-card flip-card-3d text-center rounded-0">
 								<div class="flip-front p-5">
@@ -249,7 +270,7 @@
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-							<h4 class="mb-4">Flip Card 3D</h4>
+							<h4 class="mb-4"></h4>
 
 							<div class="card flip-card flip-card-3d text-center rounded-0">
 								<div class="flip-front p-5">
@@ -269,7 +290,7 @@
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-							<h4 class="mb-4">Flip Card 3D</h4>
+							<h4 class="mb-4"></h4>
 
 							<div class="card flip-card flip-card-3d text-center rounded-0">
 								<div class="flip-front p-5">
@@ -294,80 +315,74 @@
 				</div>
 			</div>
  
-			<footer id="footer" class="mt-0">
-				<div class="container">
-					<div class="footer-ribbon">
-						<span>Get in Touch</span>
-					</div>
-					<div class="row py-5 my-4">
-						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3">NEWSLETTER</h5>
-							<p class="pr-1">Keep up on our always evolving product features and technology. Enter your e-mail address and subscribe to our newsletter.</p>
-							<div class="alert alert-success d-none" id="newsletterSuccess">
-								<strong>Success!</strong> You've been added to our email list.
+			<div class="footer-end" style="background-color: #0088CC;;">
+				<footer id="" class="mt-0">
+					<div class="container my-4">
+						<div class="row py-5">
+							<div class="col-md-5 col-lg-3 mb-5 mb-lg-0" style=" padding:2%;">
+								<h5 class="text-6 text-transform-none font-weight-semibold text-color-light mb-4">Kontakt
+								</h5>
+								<hr>
+								<h4 class="text-white">Aptus d.o.o.</h4>
+								<hr>
+								<h6 class="text-white">Milorada Miškovića 2, Beograd, Srbija</h6>
+								<hr>
+								<p><a href="tel:+381 11 7943741" target="blank" class=" text-white text-5 mb-1 pt-2"
+										style="text-decoration: none;">tel: +381 11 7943741</a></p>
+								<hr><p class="text-5 mb-0 text-white">Email:
+									<a href="mailto:office@aptus.rs"
+										style="color:white; text-decoration:none;">office@aptus.rs</a>
+								</p>
 							</div>
-							<div class="alert alert-danger d-none" id="newsletterError"></div>
-							<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mr-4 mb-3 mb-md-0">
-								<div class="input-group input-group-rounded">
-									<input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
-									<span class="input-group-append">
-										<button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>
-									</span>
+							<div class="col-md-7 col-lg-5 mb-5 mb-lg-0">
+								<div class="row">
+									<div class="mapouter">
+										<div class="gmap_canvas">
+											<iframe width="450" height="300px" id="gmap_canvas"
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.4308837363396!2d20.47717241485561!3d44.75162648872757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71101628956b%3A0xc5502fc96889b2e9!2z0KDQsNC00L7QvNC40YDQsCDQnNCw0YDQutC-0LLQuNGb0LAgNDMsINCR0LXQvtCz0YDQsNC0!5e0!3m2!1ssr!2srs!4v1643049872608!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+												width="600" height="450" style="border:0;" allowfullscreen=""
+												loading="lazy"></iframe>
+	
+											</iframe>
+											<a href="https://embedgooglemap.net/maps/74"></a>
+											<br>
+											<a href="https://www.embedgooglemap.net"></a>
+										</div>
+									</div>
 								</div>
-							</form>
-						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3">LATEST TWEETS</h5>
-							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': 'oklerthemes', 'count': 2}">
-								<p>Please wait...</p>
 							</div>
-						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-							<div class="contact-details">
-								<h5 class="text-3 mb-3">CONTACT US</h5>
-								<ul class="list list-icons list-icons-lg">
-									<li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">234 Street Name, City Name</p></li>
-									<li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:8001234567">(800) 123-4567</a></p></li>
-									<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:mail@example.com">mail@example.com</a></p></li>
+							<div class="col-lg-4 text-center mt-5">
+								<p class="text-center text-white">ZAPRATITE NAS NA:</p>
+								<ul class="social-icons" style="margin-left: 10%; text-decoration:none;">
+									<li class="social-icons-facebook p-4"><a href="http://www.facebook.com/" target="_blank"
+											title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+									<li class="social-icons-twitter p-4"><a href="http://www.twitter.com/" target="_blank"
+											title="Twitter"><i class="fab fa-twitter"></i></a></li>
+									<li class="social-icons-linkedin p-4"><a href="http://www.linkedin.com/" target="_blank"
+											title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
 								</ul>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-2">
-							<h5 class="text-3 mb-3">FOLLOW US</h5>
-							<ul class="social-icons">
-								<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>
-						</div>
 					</div>
-				</div>
-				<div class="footer-copyright">
-					<div class="container py-2">
-						<div class="row py-4">
-							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-								<a href="index.html" class="logo pr-0 pr-lg-3">
-									<img alt="Porto Website Template" src="img/logo-footer.png" class="opacity-5" height="33">
-								</a>
-							</div>
-							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-								<p>© Copyright 2019. All Rights Reserved.</p>
-							</div>
-							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
-								<nav id="sub-menu">
-									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
-									</ul>
-								</nav>
+					<hr style="border: 1px solid white;">
+					<div class="footer-copyright footer-copyright-style-2">
+						<div class="container py-2">
+							<div class="row py-4">
+								<div class="col d-flex align-items-center justify-content-center mb-4 mb-lg-0">
+									<p class="text-white">© Copyright 2022. All Rights Reserved.</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</footer>
+				</footer>
+			</div>
 		</div>
-
+<script>
+   var box = document.querySelector('#box')
+	function showBox(){
+    box.style.display = "block";
+	}
+</script>
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
