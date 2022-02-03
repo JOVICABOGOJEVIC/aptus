@@ -11517,7 +11517,7 @@ html.boxed .slider-container {
 
 .social-icons li:hover a {
 	background: #151719;
-	color: #FFF !important;
+	color: #0088cc !important;
 }
 
 .social-icons li:hover.social-icons-twitter a {
@@ -14291,7 +14291,7 @@ p .alternative-font {
 
 /* Links */
 a, a:hover, a:focus {
-	color: #CCC;
+	color: red;
 }
 
 /* Drop Caps */
