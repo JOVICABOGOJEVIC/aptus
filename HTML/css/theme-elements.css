@@ -2518,8 +2518,8 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 	box-shadow: 0px 0px 44px -10px rgba(0, 0, 0, 0.15);
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-transition: ease transform 500ms;
-	transition: ease transform 500ms;
+	-webkit-transition: ease transform 1000ms;
+	transition: ease transform 1000ms;
 }
 
 .flip-card .flip-front .flip-content,
