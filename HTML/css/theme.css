@@ -134,6 +134,7 @@ li {
 	-ms-flex-item-align: stretch;
 	align-self: stretch;
 	max-height: 100%;
+	max-width: 1200px;
 }
 
 #header .header-column {
